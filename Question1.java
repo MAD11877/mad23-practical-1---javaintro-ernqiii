@@ -13,4 +13,4 @@ public class Question1
   }
 
 }
-Question1.main()
+Question1.main("Hi")
