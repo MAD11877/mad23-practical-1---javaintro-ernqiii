@@ -11,6 +11,9 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Input integer: ")
+    double num = in.nextInt();
+    int product = num*num;
+    System.out.print("Thr product is " + product);
   }
 }
