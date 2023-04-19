@@ -28,10 +28,10 @@ public class Question5
      
     Scanner in = new Scanner(System.in);
     int numberof = in.nextInt();
-    const numlist = [];
+    int[] numlist = new int[numberof];
     for (int i = 0;i <numberof ; i++)
     {
-      scanner.out.println("Enter integer #" (i+1) ": ");
+      scanner.out.println("Enter integer #" i+1 ": ");
       int num = in.nextInt;
       numlist[i] = num;
     }
