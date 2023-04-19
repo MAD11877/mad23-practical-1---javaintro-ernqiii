@@ -15,7 +15,7 @@ public class MyMainProgram {
     double weight = in.nextDouble();
     double BMI = weight / (height * height);
     System.out.print("The BMI is " + BMI);
-    in.close();
+    
   }
 }
 
