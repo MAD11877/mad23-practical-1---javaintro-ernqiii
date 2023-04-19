@@ -25,7 +25,10 @@ public class Question5
         maxCount = count;
         mode = nums[k];
       }
+      
     }
+    
     System.out.println("The mode is: " + mode);
+    in.close();
   }
 }

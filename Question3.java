@@ -14,6 +14,8 @@ public class Question3
     //System.out.print("Input integer: ");
     int num = in.nextInt();
     int product = num*num;
+    System.out.println(product);
+    in.close();
     
   }
 }
