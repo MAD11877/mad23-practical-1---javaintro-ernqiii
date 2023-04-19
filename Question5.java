@@ -27,8 +27,16 @@ public class Question5
       }
       
     }
-    
-    System.out.println("The mode is: " + mode);
+    if (maxCount!= 0)
+    {
+      System.out.println("The mode is: " + mode);
+    }
+    else
+    {
+      System.out.println("There is no mode");
+    }
+
+   
     in.close();
   }
 }
