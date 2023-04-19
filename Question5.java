@@ -28,12 +28,12 @@ public class Question5
      
     Scanner in = new Scanner(System.in);
     int numberof = in.nextInt();
-    int[] numlist = new int[numberof];
+    int[] nums = new int[numberof];
     for (int i = 0;i <numberof ; i++)
     {
       scanner.out.println("Enter integer:");
       int num = in.nextInt;
-      numlist[i] = num;
+      nums[i] = num;
     }
     int mode = 0;
         int maxCount = 0;
