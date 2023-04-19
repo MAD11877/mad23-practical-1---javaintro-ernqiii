@@ -27,6 +27,34 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int numberof = in.nextInt();
+    const numlist = [];
+    for (int i = 0;i <numberof ; i++)
+    {
+      scanner.out.println("Enter integer #" (i+1) ": ");
+      int num = in.nextInt;
+      numlist[i] = num;
+    }
+    int mode = 0;
+        int maxCount = 0;
+        for (int k = 0; k < nums.length; k++) {
+            int count = 0;
+            for (int j = 0; j < nums.length; j++) {
+                if (nums[j] == nums[k]) 
+                {
+                    count++;
+                }
+            }
+            if (count > maxCount) 
+            {
+                maxCount = count;
+                mode = nums[k];
+            }
+        }
+        
+       
+        System.out.println("The mode is: " + mode);
+
+
   }
 }
