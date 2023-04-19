@@ -29,7 +29,7 @@ public class Question5
     }
     if (maxCount!= 0)
     {
-      System.out.println("The mode is: " + mode);
+      System.out.println(mode);
     }
     else
     {
