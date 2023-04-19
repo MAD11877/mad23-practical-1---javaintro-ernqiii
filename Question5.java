@@ -31,7 +31,7 @@ public class Question5
     int[] nums = new int[numberof];
     for (int i = 0;i <numberof ; i++)
     {
-      scanner.out.println("Enter integer:");
+      scanner.out.print("Enter integer:");
       int num = in.nextInt;
       nums[i] = num;
     }
