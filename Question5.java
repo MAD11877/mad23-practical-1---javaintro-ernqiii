@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
-public class Question5 {
-  public static void main(String[] args) {
+public class Question5 
+{
+  public static void main(String[] args) 
+  {
     Scanner in = new Scanner(System.in);
     int numberof = in.nextInt();
     int[] nums = new int[numberof];
     for (int i = 0; i < numberof; i++) {
-      System.out.print("Enter integer: ");
+      //System.out.print("Enter integer: ");
       int num = in.nextInt();
       nums[i] = num;
     }
